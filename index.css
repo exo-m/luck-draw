@@ -20,7 +20,7 @@
   top: 50%;
   left: 50%;
   margin: -15px 0 0 0;
-  font-size: 16px;
+  font-size: 20px;
   transform-origin: center left;
 }
 
@@ -46,7 +46,7 @@
   height: 40px;
   top: 50vh;
   left: 50vw;
-  margin-top: -47px;
+  margin-top: -44px;
 }
 
 #img2 {
@@ -76,5 +76,15 @@
   }
   100% {
     transform: scale(1);
+  }
+}
+
+@media screen and (min-width: 1599px) {
+  #man li {
+    font-size: 24px;
+    width: 300px;
+  }
+  #img1 {
+      margin-top: -48px;
   }
 }
