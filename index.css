@@ -42,7 +42,7 @@
 
 #img1 {
   position: absolute;
-  width: 180px;
+  width: 260px;
   height: 40px;
   top: 50vh;
   left: 50vw;
@@ -82,7 +82,7 @@
 @media screen and (min-width: 1599px) {
   #man li {
     font-size: 24px;
-    width: 300px;
+    width: 340px;
   }
   #img1 {
       margin-top: -48px;
